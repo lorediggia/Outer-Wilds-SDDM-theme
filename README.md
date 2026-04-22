@@ -37,7 +37,7 @@ Edit your `/etc/sddm.conf` (or `/etc/sddm.conf.d/default.conf`) and set:
 
 ```ini
 [Theme]
-Current=Outer-Wilds-SDDM-theme
+Current=outer-wilds
 ```
 
 ## 🎬 Credits
