@@ -27,7 +27,8 @@ git clone https://github.com/lorediggia/Outer-Wilds-SDDM-theme.git
 2.  **Move it to the SDDM themes directory:**
 
 ```bash
-sudo mv Outer-Wilds-SDDM-theme /usr/share/sddm/themes/
+cd Outer-Wilds-SDDM-theme
+sudo cp -r outer-wilds /usr/share/sddm/themes/
 ```
 
 3.  **Apply the theme:**
