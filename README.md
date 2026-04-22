@@ -16,7 +16,13 @@
 
 ## 📦 Installation
 
-Ensure you have the required dependencies installed (`qt5-graphicaleffects` and `qt5-multimedia`).
+### 1. Dependencies
+Ensure you have the required Qt5 and GStreamer dependencies installed for the UI and the `.mp4` background video.
+
+**Arch Linux / Manjaro:**
+```bash
+sudo pacman -S --needed qt5-graphicaleffects qt5-multimedia qt5-quickcontrols2 gst-libav gst-plugins-good
+```
 
 1. **Clone the repository:**
    
