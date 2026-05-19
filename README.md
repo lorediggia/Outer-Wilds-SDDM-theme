@@ -16,7 +16,7 @@
 
 ## 📦 Installation
 
-### 1. Dependencies
+### Dependencies
 Ensure you have the required Qt5 and GStreamer dependencies installed for the UI and the `.mp4` background video.
 
 **Arch Linux and derivatives**
@@ -24,20 +24,20 @@ Ensure you have the required Qt5 and GStreamer dependencies installed for the UI
 sudo pacman -S --needed qt5-graphicaleffects qt5-multimedia qt5-quickcontrols2 gst-libav gst-plugins-good
 ```
 
-1. **Clone the repository:**
+**Clone the repository:**
    
 ```bash
 git clone https://github.com/lorediggia/Outer-Wilds-SDDM-theme.git
 ```
 
-2.  **Move it to the SDDM themes directory:**
+**Move it to the SDDM themes directory:**
 
 ```bash
 cd Outer-Wilds-SDDM-theme
 sudo cp -r outer-wilds /usr/share/sddm/themes/
 ```
 
-3.  **Apply the theme:**
+**Apply the theme:**
 
 Edit your `/etc/sddm.conf` (or `/etc/sddm.conf.d/default.conf`) and set:
 
