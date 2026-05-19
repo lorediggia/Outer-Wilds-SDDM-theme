@@ -19,7 +19,7 @@
 ### 1. Dependencies
 Ensure you have the required Qt5 and GStreamer dependencies installed for the UI and the `.mp4` background video.
 
-**Arch Linux / Manjaro:**
+**Arch Linux and derivatives**
 ```bash
 sudo pacman -S --needed qt5-graphicaleffects qt5-multimedia qt5-quickcontrols2 gst-libav gst-plugins-good
 ```
