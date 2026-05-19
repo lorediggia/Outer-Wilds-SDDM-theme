@@ -33,7 +33,7 @@ git clone https://github.com/lorediggia/Outer-Wilds-SDDM-theme.git
 **Move it to the SDDM themes directory:**
 
 ```bash
-cd Outer-Wilds-SDDM-theme
+cd outer-wilds-sddm
 sudo cp -r outer-wilds /usr/share/sddm/themes/
 ```
 
